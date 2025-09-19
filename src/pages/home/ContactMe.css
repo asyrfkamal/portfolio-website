@@ -7,7 +7,6 @@
   gap: 82px;
 
   width: 100%;
-
   padding: 40px 100px;
   margin-top: 50px;
 }
@@ -172,7 +171,7 @@
 
 @media screen and (max-width: 1024px) {
   .contact-me {
-    flex-direction: column;
+    margin-top: 20px;
   }
 
   .contact__left {

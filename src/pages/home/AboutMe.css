@@ -2,8 +2,8 @@
 .about {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   align-items: center;
+  overflow: hidden;
 
   min-height: calc(90vh - 79px);
   position: relative;
@@ -11,8 +11,6 @@
   padding: 40px;
   margin-top: 80px;
   margin-bottom: 40px;
-
-  scroll-margin-top: 140px;
 }
 
 .about__overlay {

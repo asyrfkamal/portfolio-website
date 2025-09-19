@@ -1,7 +1,9 @@
 import "./Hero.css";
 
+import { Link } from "react-scroll";
+
 import heroImage from "../../assets/me3.jpg";
-import SplitText from "../SplitText";
+import SplitText from "../../components/SplitText";
 
 function Hero() {
   return (
@@ -39,7 +41,9 @@ function Hero() {
           </p>
         </div>
         <div className="hero__button-container">
-          <a className="hero__button-contact" href="#contact-me">Contact Me</a>
+          <Link to="contact-me" className="hero__button-contact">
+            Contact Me
+          </Link>
 
           <a className="hero__button-resume" href="">My Resume</a>
         </div>

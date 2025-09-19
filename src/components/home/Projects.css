@@ -1,0 +1,245 @@
+/* Projects Section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  width: 100%;
+  min-height: calc(90vh - 79px);
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.projects .projects__title h2 {
+  font-family: var(--playfair-display-sc);
+  font-size: 50px;
+  color: var(--brown-darker);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Project Card */
+.mySwiper {
+  height: 530px;
+  width: 100%;
+  max-width: 1280px;
+
+  margin-top: 30px auto 0;
+  padding: 20px 50px 50px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .mySwiper {
+    padding: 20px 20px 50px;
+  }
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: auto !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+
+  color: var(--green-dark) !important;
+
+  background-color: var(--color-white);
+  border-radius: 50%;
+  border: 2px solid var(--green-dark);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute !important;
+  z-index: 100;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: var(--green-dark);
+  color: var(--color-white) !important;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  border-color: var(--brown-darker);
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}
+
+.swiper-navigation-icon {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--green-dark) !important;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  padding: 25px 25px 15px;
+  max-width: 350px;
+  height: 450px;
+
+  border-radius: 15px;
+  border: 2px solid var(--brown-dark);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.project-card:hover {
+  border: 4px solid var(--green-dark);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.project-card:active {
+  cursor: grab;
+}
+
+
+.project-card .project-card__image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-card .project-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card .project-card__content {
+  margin: 10px 8px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.project-card .project-card__title {
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-200);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-card .project-card__desc {
+  font-family: var(--poppins);
+  font-size: 14px;
+  color: var(--black-200);
+  line-height: 1.5;
+
+  overflow: hidden;
+  max-height: 7.5rem;
+}
+
+.project-card .project-card__buttons {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 5px 10px 0px;
+} 
+
+.project-card .project-card__buttons .arrow-right-up {
+  height: 20px;
+  width: 20px;
+}
+
+.project-card .project-card__buttons .project__button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  
+  height: fit-content;
+  width: fit-content;
+  padding: 5px 14px;
+
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--poppins);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  border-radius: 15px;
+  background-color: var(--green-primary);
+  border: 1px solid var(--green-dark);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .project-card__buttons .project__button:hover {
+  background-color: var(--green-dark);
+  border-color: var(--brown-darker);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  .projects {
+    min-height: fit-content;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+
+  .project-card .project-card__buttons .project__button {
+    font-size: 12px;
+  }
+
+  .project-card .project-card__buttons .project__button img {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .project-card .project-card__title {
+    font-size: 16px;
+  }
+
+  .project-card .project-card__desc {
+    font-size: 12px;
+  }
+
+  .project-card .project-card__buttons {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

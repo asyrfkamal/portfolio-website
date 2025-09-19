@@ -1,0 +1,134 @@
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+
+  background-color: var(--color-white);
+}
+
+/* Footer Upper */
+.footer-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 15px;
+}
+
+.footer-upper .footer-upper__left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.footer-upper .footer-upper__left .footer__email,
+.footer-upper .footer-upper__left .footer__phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-family: var(--poppins);
+  font-size: 13px;
+}
+
+.footer-upper .footer-upper__left .footer__email img,
+.footer-upper .footer-upper__left .footer__phone img  {
+  width: 20px;
+  height: 20px;
+}
+
+
+.footer-upper .footer-upper__right {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.footer-upper .footer-upper__right .insta-img {
+  width: 29px;
+  height: 29px;
+}
+
+.footer-upper .footer-upper__right .linkedin-img {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-upper .footer-upper__right .github-img {
+  width: 32px;
+  height: 31px;
+}
+
+/* Footer Lower */
+.footer-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 15px;
+
+  border-top: 2px solid var(--brown-darker);
+}
+
+/* .footer-lower .footer-lower__left {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.footer-lower .footer-lower__left ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.footer-lower .footer-lower__left ul li {
+  color: var(--black-200);
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer-lower .footer-lower__left ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.footer-lower .footer-lower__left ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-lower .footer-lower__right p {
+  font-family: var(--poppins);
+  font-size: 13px;
+  color: #8C8C8C;
+  text-align: center;
+}
+
+@media screen and (max-width: 945px) {
+  .footer-lower .footer-lower__left {
+    display: none;
+  }
+
+  .footer-lower {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .footer-upper {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .footer-upper .footer-upper__left {
+    gap: 10px;
+  }
+}

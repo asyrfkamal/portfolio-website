@@ -44,21 +44,21 @@ function ContactMe() {
         </div>
 
         <div className="contact__right-contacts">
-          <a href="" className="contact__whatsapp">
+          <a href="https://wa.me/60108634158" target="_blank" className="contact__whatsapp">
             <img src={WhatsAppIconBrown} alt="whatsapp" />
             <div className="contact__whatsapp-content">
               <p>Whatsapp:</p>
               <p>+6010 8634158 / +44 7920853951</p>
             </div>
           </a>
-          <a href="" className="contact__email">
+          <a href="mailto:asyrfkamal@gmail.com" className="contact__email">
             <img src={MailIconBrown} alt="email" />
             <div className="contact__email-content">
               <p>Email:</p>
               <p>asyrfkamal@gmail.com</p>
             </div>
           </a>
-          <a href="" className="contact__linkedin">
+          <a href="https://www.linkedin.com/in/asyrfkamal" target="_blank" className="contact__linkedin">
             <img src={LinkedinIconBrown} alt="linkedin" />
             <div className="contact__linkedin-content">
               <p>Message me directly on Linkedln</p>

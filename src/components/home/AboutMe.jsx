@@ -13,7 +13,7 @@ function AboutMe() {
 
       <div className="about__content">
         <div className="about__image">
-          <img src={aboutImage} alt="pic of me" />
+          <img src={aboutImage} alt="pic of me" loading="lazy" />
         </div>
 
         <div className="about__text">

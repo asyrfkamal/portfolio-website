@@ -12,7 +12,7 @@ function Hero() {
 
         <div className="profile-container">
           <div className="profile-image">
-            <img src={heroImage} alt="" />
+            <img src={heroImage} alt="" loading="lazy"/>
           </div>
           {/* <p>Hi, my name is</p> */}
           <SplitText 

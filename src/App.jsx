@@ -21,7 +21,7 @@ import Others from "./components/home/Others.jsx";
 import ContactMe from "./components/home/ContactMe.jsx";
 
 // import icons
-import ArrowTop from "./assets/arrow-up-double-fill.png";
+import ArrowTop from "./assets/arrow-up-double-fill.svg";
 
 function App() {
   // init AOS animation

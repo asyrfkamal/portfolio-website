@@ -2,48 +2,16 @@ import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 import './Header.css';
 
 // Import any assets
-import githubIcon from "../../assets/github-fill.png";
-import linkedlnIcon from "../../assets/linkedin-box-fill.png";
+import githubIcon from "../../assets/github-fill.svg";
+import linkedlnIcon from "../../assets/linkedin-box-fill.svg";
 
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 
 function Header() {
 	
   return (
     <>
-    {/* <header id="header">
-      <nav className="header__nav">
-        <div className="header__logo">
-          <h4 className="header__logo-title">asyrfkamal</h4>
-        </div>
-
-        <ul className="header__menu">
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#others">Others</a>
-          </li>
-        </ul>
-
-        <div className="header__button">
-          <a href="#">
-            <img src={linkedlnIcon} alt="Linkedln" />
-          </a>
-          <a href="#">
-            <img src={githubIcon} alt="Github" />
-          </a>
-        </div>
-      </nav>
-    </header> */}
-
     <Navbar expand="md" className="header__nav">
       <Container>
         <Navbar.Brand href="#">
@@ -62,10 +30,10 @@ function Header() {
         </Navbar.Collapse>
 
         <div className="header__button">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/asyrfkamal" target="_blank">
             <img src={linkedlnIcon} alt="Linkedln" />
           </a>
-          <a href="#">
+          <a href="https://github.com/asyrfkamal" target="_blank">
             <img src={githubIcon} alt="Github" />
           </a>
         </div>

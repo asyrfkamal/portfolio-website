@@ -1,10 +1,10 @@
 import "./Footer.css";
 
-import GitHubIcon from "../../assets/github-fill.png";
-import LinkedinIcon from "../../assets/linkedin-box-fill.png";
-import InstagramIcon from "../../assets/instagram-line.png";
-import MailIcon from "../../assets/mail-line.png";
-import PhoneIcon from "../../assets/phone-line.png";
+import GitHubIcon from "../../assets/github-fill.svg";
+import LinkedinIcon from "../../assets/linkedin-box-fill.svg";
+import InstagramIcon from "../../assets/instagram-line.svg";
+import MailIcon from "../../assets/mail-line.svg";
+import PhoneIcon from "../../assets/phone-line.svg";
 
 function Footer() {
   return (
@@ -21,13 +21,13 @@ function Footer() {
           </div>
         </div>
         <div className="footer-upper__right">
-          <a href="https://www.instagram.com/">
+          {/* <a href="https://www.instagram.com/">
             <img src={InstagramIcon} alt="insta" className="insta-img" />
-          </a>
-          <a href="">
+          </a> */}
+          <a href="https://www.linkedin.com/in/asyrfkamal" target="_blank">
             <img src={LinkedinIcon} alt="linkedin" className="linkedin-img" />
           </a>
-          <a href="">
+          <a href="https://github.com/asyrfkamal" target="_blank">
             <img src={GitHubIcon} alt="github" className="github-img" />
           </a>
         </div>

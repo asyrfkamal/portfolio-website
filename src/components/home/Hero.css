@@ -46,7 +46,7 @@
   flex-direction: column;
 
   gap: 40px;
-  z-index: 100;
+  z-index: 10;
 }
 
 /* Hero Image */
@@ -54,8 +54,10 @@
   display: flex;
   margin: auto 0;
 
-  height: 300px;
-  width: 300px;
+  height: 37vh;
+  width: 37vh;
+  max-height: 300px;
+  max-width: 300px;
   overflow: hidden;
   border-radius: 100%;
 

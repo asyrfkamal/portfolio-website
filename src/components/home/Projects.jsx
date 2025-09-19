@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import PlaceholderImage from "../../assets/placeholder-img.png";
-import ArrowRightTop from "../../assets/arrow-right-up.png";
+import ArrowRightUp from '../../assets/arrow-right-up-line.svg';
 import prop1 from "../../assets/me3.jpg";
 import prop2 from "../../assets/obersee2.jpg";
 
@@ -55,6 +55,7 @@ function Projects() {
                 <img
                   src={prop1}
                   alt="project-pic"
+                  loading='lazy'
                 />
               </div>
               <div className="project-card__content">
@@ -69,7 +70,7 @@ function Projects() {
                 <button className="project__button">
                   <p>Live Demo</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -77,7 +78,7 @@ function Projects() {
                 <button className="project__button">
                   <p>GitHub</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -92,6 +93,7 @@ function Projects() {
                 <img
                   src={prop2}
                   alt="project-pic"
+                  loading='lazy'
                 />
               </div>
               <div className="project-card__content">
@@ -107,7 +109,7 @@ function Projects() {
                 <button className="project__button">
                   <p>Live Demo</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -115,7 +117,7 @@ function Projects() {
                 <button className="project__button">
                   <p>GitHub</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -130,6 +132,7 @@ function Projects() {
                 <img
                   src={PlaceholderImage}
                   alt="project-pic"
+                  loading='lazy'
                 />
               </div>
               <div className="project-card__content">
@@ -145,7 +148,7 @@ function Projects() {
                 <button className="project__button">
                   <p>Live Demo</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -153,7 +156,7 @@ function Projects() {
                 <button className="project__button">
                   <p>GitHub</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -168,6 +171,7 @@ function Projects() {
                 <img
                   src={PlaceholderImage}
                   alt="project-pic"
+                  loading='lazy'
                 />
               </div>
               <div className="project-card__content">
@@ -183,7 +187,7 @@ function Projects() {
                 <button className="project__button">
                   <p>Live Demo</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />
@@ -191,7 +195,7 @@ function Projects() {
                 <button className="project__button">
                   <p>GitHub</p>
                   <img
-                    src={ArrowRightTop}
+                    src={ArrowRightUp}
                     alt="arrow"
                     className="arrow-right-up"
                   />

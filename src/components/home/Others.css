@@ -74,12 +74,15 @@
   height: 5vw;
   max-width: 80px;
   max-height: 80px;
+
   margin-bottom: 2px;
+
+  min-height: 33px;
+  min-width: 33px;
 }
 
 
 @media screen and (max-width: 450px) {
-
   .others {
     margin-top: 30px;
   }

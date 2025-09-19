@@ -1,6 +1,6 @@
 import "./Skills.css";
 
-import verifiedIcon from '../../assets/verified-badge-fill.png';
+import verifiedIcon from '../../assets/verified-badge-fill.svg';
 
 function Skills() {
   return (

@@ -11,7 +11,9 @@ function ContactMe() {
         <h3 className="contact__left-title" data-aos="fade-right">
           Get in touch.
         </h3>
-        <form action="" method="POST" data-aos="fade-right">
+        <form action="https://formsubmit.co/asyrfkamal@gmail.com" method="POST" data-aos="fade-right">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" className="honeypot"/>
           <input
             type="text"
             name="name"

@@ -1,15 +1,15 @@
 import "./Header.css";
 
 // Import any assets
-import githubIcon from "../../assets/github-fill.svg";
-import linkedlnIcon from "../../assets/linkedin-box-fill.svg";
+import githubIcon from "../assets/github-fill.svg";
+import linkedlnIcon from "../assets/linkedin-box-fill.svg";
 
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from 'react-scroll';
 
 function Header() {
   return (
-    <>
+    <header>
       <Navbar expand="md" className="header__nav">
         <Container>
           <Navbar.Brand href="#">
@@ -45,7 +45,7 @@ function Header() {
           </div>
         </Container>
       </Navbar>
-    </>
+    </header>
   );
 }
 

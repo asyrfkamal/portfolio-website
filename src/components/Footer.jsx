@@ -1,10 +1,9 @@
 import "./Footer.css";
 
-import GitHubIcon from "../../assets/github-fill.svg";
-import LinkedinIcon from "../../assets/linkedin-box-fill.svg";
-import InstagramIcon from "../../assets/instagram-line.svg";
-import MailIcon from "../../assets/mail-line.svg";
-import PhoneIcon from "../../assets/phone-line.svg";
+import GitHubIcon from "../assets/github-fill.svg";
+import LinkedinIcon from "../assets/linkedin-box-fill.svg";
+import MailIcon from "../assets/mail-line.svg";
+import PhoneIcon from "../assets/phone-line.svg";
 
 function Footer() {
   return (

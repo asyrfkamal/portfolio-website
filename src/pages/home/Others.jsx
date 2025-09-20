@@ -1,5 +1,7 @@
 import "./Others.css";
 
+import { NavLink } from "react-router-dom";
+
 import ArrowRightUp from '../../assets/arrow-right-up-line.svg';
 
 function Others() {
@@ -13,10 +15,10 @@ function Others() {
         </p>
       </div>
       <div className="others__lower-container">
-        <a href="" className="others__lower">
+        <NavLink to="/more" className="others__lower">
           <p><span>Get to </span>Know Me Better</p>
           <img src={ArrowRightUp} alt="arrow" />
-        </a>
+        </NavLink>
       </div>
     </section>
   );

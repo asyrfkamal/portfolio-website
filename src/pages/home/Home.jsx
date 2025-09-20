@@ -6,12 +6,12 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
 // import components
-import Header from "./Header.jsx";
+import Header from "../../components/Header.jsx";
 import Hero from "./Hero.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
-import Footer from "./Footer.jsx";
+import Footer from "../../components/Footer.jsx";
 import Others from "./Others.jsx";
 import ContactMe from "./ContactMe.jsx";
 

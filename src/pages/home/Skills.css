@@ -72,7 +72,10 @@
   border-radius: 20px;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
 
+.skills__container .skills__card:hover {
+  transform: translateY(-8px);
 }
 
 .skills__container .skills__card .skills__card-title {

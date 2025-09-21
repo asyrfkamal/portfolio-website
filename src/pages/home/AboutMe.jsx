@@ -18,10 +18,12 @@ function AboutMe() {
 
         <div className="about__text">
           <p>
-            I am a Malaysian sophomore computer scientist studying in the
-            University of Warwick. I am a Malaysian sophomore computer scientist
-            studying in the University of Warwick. I am a Malaysian sophomore
-            computer scientist studying in the University of Warwick.
+            Hey, I'm Asyraf Kamal, a Computer Science student at the University of Warwick with a strong passion for transforming data 
+            into visible insights through data analysis, machine learning and backend development.
+            <br />
+            <br />
+            I actively develop my skills by building hands-on project, including interactice data visualization dashboards and full-stack web applications.  
+          
           </p>
         </div>
       </div>

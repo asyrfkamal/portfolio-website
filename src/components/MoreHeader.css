@@ -16,6 +16,8 @@
   padding: 10px 20px;
   display: flex;
   align-items: center;
+  gap: 30px;
+
   list-style: none;
 
   justify-content: center !important;

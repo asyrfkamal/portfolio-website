@@ -21,7 +21,7 @@
 
 /* Project Card */
 .mySwiper {
-  height: 530px;
+  height: 550px;
   width: 100%;
   max-width: 1280px;
 
@@ -98,8 +98,8 @@
   flex-direction: column;
   background-color: var(--color-white);
   padding: 25px 25px 15px;
-  max-width: 350px;
-  height: 450px;
+  width: 350px;
+  height: 480px;
 
   border-radius: 15px;
   border: 2px solid var(--brown-dark);
@@ -121,6 +121,7 @@
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+  image-rendering: crisp-edges;
 }
 
 .project-card .project-card__image img {
@@ -139,7 +140,7 @@
 
 .project-card .project-card__title {
   font-family: var(--poppins);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--black-200);
 
@@ -150,12 +151,12 @@
 
 .project-card .project-card__desc {
   font-family: var(--poppins);
-  font-size: 14px;
+  font-size: 12px;
   color: var(--black-200);
   line-height: 1.5;
 
   overflow: hidden;
-  max-height: 7.5rem;
+  max-height: 9rem;
 }
 
 .project-card .project-card__buttons {
@@ -163,7 +164,7 @@
   justify-content: space-between;
 
   margin: 5px 10px 0px;
-} 
+}
 
 .project-card .project-card__buttons .arrow-right-up {
   height: 20px;
@@ -179,11 +180,7 @@
   width: fit-content;
   padding: 5px 14px;
 
-  color: var(--color-white);
-  font-weight: 600;
-  font-size: 14px;
-  font-family: var(--poppins);
-
+  text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -212,9 +209,7 @@
 
 
 
-
 @media screen and (max-width: 500px) {
-
   .projects {
     min-height: fit-content;
   }

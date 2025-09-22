@@ -23,15 +23,14 @@ function More() {
 
 			<main className="more" id="more">
 				<div className="more__title">
-					<h2>Gallery</h2>
+					<h2>Snippets of my Life</h2>
 				</div>
 
 				<div className="more__masonry">
 					{items.map((pic, index) => (
-						<img src={pic} alt="pic" key={index}/>
+						<img src={pic} alt="pic" key={index} loading="blur"/>
 					))}
 				</div>
-				
 			</main>
 		</>
 		

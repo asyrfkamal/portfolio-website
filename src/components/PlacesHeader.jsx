@@ -3,7 +3,7 @@ import "./MoreHeader.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-function MoreHeader() {
+function PlacesHeader() {
   return (
 		<header>
 			<Navbar expand="md" className="more-header__nav" variant="dark">
@@ -14,8 +14,8 @@ function MoreHeader() {
 							<NavLink to="/" className="more-header__link">
 								Home
 							</NavLink>
-							<NavLink to="/places" className="more-header__link">
-								Places I've Been
+							<NavLink to="/more" className="more-header__link">
+								Snippets
 							</NavLink>
 						</Nav>
 					</Navbar.Collapse>
@@ -25,4 +25,4 @@ function MoreHeader() {
 	);
 }
 
-export default MoreHeader;
+export default PlacesHeader;

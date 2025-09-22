@@ -10,18 +10,20 @@
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .more__title h2 {
     font-family: var(--playfair-display-sc);
     color: var(--brown-darker);
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 600;
 }
 
 .more__masonry {
-    columns: 300px;
+    columns: 200px;
 }
 
 .more__masonry img {

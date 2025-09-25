@@ -3,10 +3,12 @@ import "./MoreHeader.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
+import HomeIcon from "../assets/home-icon.svg";
+
 function MoreHeader() {
   return (
 		<header>
-			<Navbar expand="md" className="more-header__nav" variant="dark">
+			{/* <Navbar expand="md" className="more-header__nav" variant="dark">
 				<Container>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" className="header__toggle-icon ms-auto"/>
 					<Navbar.Collapse id="basic-navbar-nav">
@@ -20,7 +22,15 @@ function MoreHeader() {
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
-			</Navbar>
+			</Navbar> */}
+
+			<nav className="more-header__nav">
+				<div className="more-header__wrapper ms-auto">
+					<NavLink to='/' className='more-header__link'>
+						<img src={HomeIcon} alt="home" />
+					</NavLink>
+				</div>
+			</nav>
 		</header>
 	);
 }

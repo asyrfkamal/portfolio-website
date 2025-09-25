@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     text-align: center;
     margin-top: 20px;
@@ -16,14 +17,109 @@
 }
 
 .more__title h2 {
-    font-family: var(--playfair-display-sc);
-    color: var(--brown-darker);
-    font-size: 80px;
+    font-family: var(--poppins);
+    color: var(--black-200);
+    font-size: 36px;
     font-weight: 600;
+}
+
+.more__title p {
+    font-family: var(--poppins);
+    color: var(--black-200);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Hiking, Travel, Sports Section */
+.passion {
+    display: flex;
+    margin: 30px 40px 100px 40px;
+
+    height: 75vh;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.passion .passion__content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.passion .passion__content h3 {
+    font-family: var(--playfair-display-sc);
+    font-size: 36px;
+    color: var(--black-200);
+    font-weight: 600;
+}
+
+.passion .passion__content p {
+    font-family: var(--poppins);
+    font-size: 20px;
+    color: var(--black-200);
+    font-weight: 500;
+}
+
+.passion .passion__masonry-wrapper {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px 30px;
+
+    background-color: var(--color-white);
+    border-radius: 20px;
+}
+
+.passion .passion__masonry-wrapper .passion__masonry-wrapper-sec {
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
+    width: 100%;
+    columns: 150px;
+}
+
+.passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry img {
+    width: 100%;
+    margin-bottom: 1em;
+
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+
+    transition: 0.5s ease;
+}
+
+.passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry img:hover {
+    transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.more__masonry-wrapper {
+    max-height: 600px;
+    overflow-y: auto;
+    width: 90%;
 }
 
 .more__masonry {
     columns: 200px;
+    width: 100%;
 }
 
 .more__masonry img {
@@ -41,10 +137,6 @@
 }
 
 @media screen and (max-width: 680px) {
-    .more__title h2 {
-        font-size: 60px;
-    }
-
     .more__title {
         margin-bottom: 40px;
     }

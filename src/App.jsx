@@ -13,7 +13,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="more" element={<More />} /> */}
+          <Route path="more" element={<More />} />
           {/* <Route path="places" element={<Places />} /> */}
         </Routes>
       </HashRouter>

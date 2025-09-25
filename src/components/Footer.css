@@ -79,30 +79,28 @@
   justify-content: flex-start;
 } */
 
-.footer-lower .footer-lower__left ul {
+.footer-lower .footer-lower__left {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
-.footer-lower .footer-lower__left ul li {
+.footer-lower .footer-lower__left .footer__link {
   color: var(--black-200);
   font-family: var(--poppins);
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
-}
-
-.footer-lower .footer-lower__left ul li a {
   text-decoration: none;
-  color: inherit;
+
   display: inline-block;
 }
 
-.footer-lower .footer-lower__left ul li a:hover {
+.footer-lower .footer-lower__left .footer__link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer-lower .footer-lower__right p {

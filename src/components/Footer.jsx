@@ -1,5 +1,7 @@
 import "./Footer.css";
 
+import { Link } from 'react-scroll';
+
 import GitHubIcon from "../assets/github-fill.svg";
 import LinkedinIcon from "../assets/linkedin-box-fill.svg";
 import MailIcon from "../assets/mail-line.svg";
@@ -34,20 +36,18 @@ function Footer() {
 
       <div className="footer-lower">
         <div className="footer-lower__left">
-          <ul>
-            <li>
-              <a href="#about-me">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#others">Know More</a>
-            </li>
-          </ul>
+          <Link to="about-me" offset={-120} className="footer__link">
+            About Me
+          </Link>
+          <Link to="skills" offset={-20} className="footer__link">
+            Skills
+          </Link>
+          <Link to="projects" offset={-50} className="footer__link">
+            Projects
+          </Link>
+          <Link to="others" offset={-80} className="footer__link">
+            Others
+          </Link>
         </div>
         <div className="footer-lower__right">
           <p className="footer__copyright">

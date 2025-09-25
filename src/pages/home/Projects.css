@@ -104,12 +104,12 @@
   border-radius: 15px;
   border: 2px solid var(--brown-dark);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
-
+  transition: 0.3s ease;
 }
 
 .project-card:hover {
-  border: 3px solid var(--green-dark);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  transform: translateY(-8px);
 }
 
 .project-card:active {

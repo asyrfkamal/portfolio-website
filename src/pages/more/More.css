@@ -73,6 +73,10 @@
 
     background-color: var(--color-white);
     border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec {
@@ -84,6 +88,13 @@
 .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
     width: 100%;
     columns: 150px;
+}
+
+@media screen and (min-width: 1249px) {
+    .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
+        width: 100%;
+        columns: 200px;
+    }
 }
 
 .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry img {

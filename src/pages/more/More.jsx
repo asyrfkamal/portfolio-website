@@ -9,6 +9,13 @@ import pic3 from '../../assets/me3.jpg';
 import pic4 from '../../assets/me4.jpg';
 
 // Import pics
+import berembun1 from '../../assets/more/berembun-1.jpg';
+import berembun2 from '../../assets/more/berembun-2.jpg';
+import berembun3 from '../../assets/more/berembun-3.jpg';
+import peak1 from '../../assets/more/peak-1.jpg';
+import peak2 from '../../assets/more/peak-2.jpg';
+import peak3 from '../../assets/more/peak-3.jpg';
+import peak4 from '../../assets/more/peak-4.jpg';
 import edin1 from '../../assets/more/edin-1.JPEG';
 import edin2 from '../../assets/more/edin-2.JPEG';
 import edin3 from '../../assets/more/edin-3.JPEG';
@@ -60,28 +67,37 @@ import turkey2 from '../../assets/more/turkey-2.JPEG';
 import turkey3 from '../../assets/more/turkey-3.JPEG';
 import turkey4 from '../../assets/more/turkey-4.JPEG';
 import turkey5 from '../../assets/more/turkey-5.JPEG';
+import thai1 from '../../assets/more/thai-1.jpg';
+import thai6 from '../../assets/more/thai-6.jpg';
+import thai7 from '../../assets/more/thai-7.jpg';
+import thai8 from '../../assets/more/thai-8.jpg';
 
+import bad1 from '../../assets/more/bad-1.jpg';
+import bad2 from '../../assets/more/bad-2.jpg';
+import bola1 from '../../assets/more/bola-1.jpg';
+import bola2 from '../../assets/more/bola-2.jpg';
+import bola3 from '../../assets/more/bola-3.jpg';
+import bola4 from '../../assets/more/bola-4.jpg';
+import bola5 from '../../assets/more/bola-5.jpg';
+import bola6 from '../../assets/more/bola-6.jpg';
+import bola7 from '../../assets/more/bola-7.jpg';
+import bola8 from '../../assets/more/bola-8.jpg';
+import bola9 from '../../assets/more/bola-9.jpg';
+import bola10 from '../../assets/more/bola-10.jpg';
+import bola11 from '../../assets/more/bola-11.jpg';
+import bola12 from '../../assets/more/bola-12.jpg';
+import bola13 from '../../assets/more/bola-13.jpg';
+import stadium1 from '../../assets/more/stadium-1.jpg';
+import stadium2 from '../../assets/more/stadium-2.jpg';
+import obs1 from '../../assets/more/obs-1.jpg';
+import obs2 from '../../assets/more/obs-2.jpg';
+import kayak1 from '../../assets/more/kayak-1.jpg';
+import mnight1 from '../../assets/more/mnight-1.jpg';
+import mnight2 from '../../assets/more/mnight-2.jpg';
 
-const items = [
-	pic1,
-	pic3,
-	pic4,
-	pic2,
-	pic1,
-	pic3,
-	pic4,
-	pic2,
-	pic1,
-	pic3,
-	pic4,
-	pic2,
-	pic1,
-	pic3,
-	pic4,
-	pic2,
-]
 
 const hikings = [
+	berembun3,
 	edin1,
 	edin2,
 	edin3,
@@ -91,11 +107,17 @@ const hikings = [
 	scotland3,
 	obersee6,
 	obersee5,
+	peak2,
 	obersee8,
 	scotland1,
 	obersee9,
 	scotland2,
+	peak4,
 	scotland4,
+	berembun2,
+	berembun1,
+	peak1,
+	peak3,
 ]
 
 const travels = [
@@ -135,7 +157,36 @@ const travels = [
 	turkey2,
 	turkey3,
 	turkey4,
-	turkey5
+	turkey5,
+	thai1,
+	thai6,
+	thai7,
+	thai8,
+	stadium1,
+	stadium2
+]
+
+const sports = [
+	bola1,
+	obs2,
+	bola2,
+	bad1,
+	bola3,
+	bola4,
+	kayak1,
+	bola5,
+	bola6,
+	obs1,
+	bola7,
+	bola8,
+	mnight1,
+	bola9,
+	bola10,
+	bad2,
+	bola11,
+	bola12,
+	mnight2,
+	bola13,
 ]
 	
 function More() {
@@ -196,7 +247,7 @@ function More() {
 					<div className="passion__content">
 						<h3>
 							Sports & <br />
-							Fitness
+							Involvements
 						</h3>
 						<p>
 							Staying active helps me maintain focus and energy
@@ -205,7 +256,7 @@ function More() {
 					<div className="passion__masonry-wrapper">
 						<div className="passion__masonry-wrapper-sec">
 							<div className="passion__masonry">
-								{items.map((pic, index) => (
+								{sports.map((pic, index) => (
 									<img src={pic} alt="pic" key={index} loading="blur"/>
 								))}
 							</div>

@@ -197,14 +197,14 @@ function More() {
 
 			<main className="more" id="more">
 				<div className="more__title">
-					<h2>Get to Know Me More !</h2>
+					<h2>Get to Know Me More!</h2>
 					<p>Beyond the code - here’s a glimpse into my life, passions, and journey</p>
 				</div>
 
 				<div className="passion" id="hiking">
 					<div className="passion__content">
 						<h3>
-							Hiking & <br />  
+							Hiking & 
 							Adventures
 						</h3>
 						<p>
@@ -234,7 +234,7 @@ function More() {
 					</div>
 					<div className="passion__content">
 						<h3>
-							Travel & <br /> 
+							Travel &
 							Cultures
 						</h3>
 						<p>
@@ -246,7 +246,7 @@ function More() {
 				<div className="passion" id="sports">
 					<div className="passion__content">
 						<h3>
-							Sports & <br />
+							Sports &
 							Involvements
 						</h3>
 						<p>

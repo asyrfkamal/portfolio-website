@@ -60,7 +60,7 @@
 
 .passion .passion__content p {
     font-family: var(--poppins);
-    font-size: 20px;
+    font-size: 18px;
     color: var(--black-200);
     font-weight: 500;
 }
@@ -112,16 +112,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .more__masonry-wrapper {
     max-height: 600px;
     overflow-y: auto;
@@ -147,14 +137,71 @@
     transform: translateY(-8px);
 }
 
-@media screen and (max-width: 680px) {
-    .more__title {
-        margin-bottom: 40px;
+
+@media screen and (max-width: 1000px) {
+    .passion {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .passion:nth-of-type(3) {
+        flex-direction: column-reverse;
+    }
+
+    .passion .passion__content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
+        columns: 200px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .more__masonry {
+
+@media screen and (max-width: 680px) {
+    .more {
+        padding: 20px 40px;
+    }
+
+    .passion {
+        margin: 30px 0px 80px 0px;
+    }
+
+    .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
+        columns: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .more {
+        padding: 20px 20px;
+    }
+
+    .passion .passion__content h3 {
+        font-size: 32px;
+    }
+
+    .passion .passion__content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .passion .passion__content h3 {
+        font-size: 28px;
+    }
+
+    .passion .passion__content p {
+        font-size: 14px;
+    }
+
+    .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry {
         columns: 100px;
+    }
+
+    .passion .passion__masonry-wrapper .passion__masonry-wrapper-sec .passion__masonry img {
+        margin-bottom: 0.5em;
     }
 }
